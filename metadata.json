@@ -1,0 +1,6 @@
+{
+  "name": "Bars R Us",
+  "description": "Interactive bartending academy with realistic virtual cocktail shaker, glassware physics, ingredient pouring animations, recipe memorization quizzes, speed rush hour, ServSafe alcohol law guide, and PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

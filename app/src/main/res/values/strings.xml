@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Bars R Us</string>
+    <string name="app_tagline">Mixology &amp; Bartending Academy</string>
+    
+    <!-- Navigation -->
+    <string name="nav_lab">Virtual Bar</string>
+    <string name="nav_academy">Quiz Academy</string>
+    <string name="nav_speed">Speed Rush</string>
+    <string name="nav_recipes">Cocktails</string>
+    <string name="nav_laws">Laws &amp; Safety</string>
+    
+    <!-- Common -->
+    <string name="action_export_pdf">Export PDF</string>
+    <string name="action_share">Share</string>
+    <string name="action_shake">Shake Shaker</string>
+    <string name="action_stir">Stir Glass</string>
+    <string name="action_pour">Pour into Glass</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_claim_drink">Claim as My Own</string>
+    <string name="action_servsafe">ServSafe Certification</string>
+    <string name="action_copyright">Copyright &amp; IP Guide</string>
+</resources>
