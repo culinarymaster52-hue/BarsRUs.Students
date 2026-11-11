@@ -146,10 +146,10 @@ fun BarCraftProPaywallDialog(
                         Spacer(modifier = Modifier.height(6.dp))
 
                         CopyableFieldRow(
-                            label = "Package ID / Application ID",
-                            value = "com.aistudio.barcraft.qwbx",
+                            label = "Public Package ID / Application ID",
+                            value = "com.barsrus.mixology.pub",
                             onCopy = {
-                                clipboardManager.setText(AnnotatedString("com.aistudio.barcraft.qwbx"))
+                                clipboardManager.setText(AnnotatedString("com.barsrus.mixology.pub"))
                                 copiedLabel = "Package ID"
                             }
                         )
@@ -196,7 +196,7 @@ fun BarCraftProPaywallDialog(
                         )
                         Spacer(modifier = Modifier.height(4.dp))
                         Text(
-                            text = "The AI Studio 'Publish' tab only publishes to your private Personal Library (Beta). To publish publicly for everyone on the Google Play Store, follow these 5 steps:",
+                            text = "Your public package ID is now set to 'com.barsrus.mixology.pub'. To publish publicly for everyone on the Google Play Store, follow these steps:",
                             style = MaterialTheme.typography.bodySmall.copy(
                                 color = Color.White,
                                 fontSize = 10.sp,
@@ -213,8 +213,8 @@ fun BarCraftProPaywallDialog(
                         )
                         PublishStepItem(
                             step = "2",
-                            title = "Use a Fresh Public Package ID for Public Store",
-                            detail = "Because 'com.aistudio.barcraft.qwbx' is already registered on Google Play under the AI Studio Personal Library Beta, Google Play Console will say that package ID is already taken. Change applicationId in app/build.gradle.kts (e.g., to 'com.barsrus.mixology') before building your public .AAB."
+                            title = "Public Package ID Already Updated",
+                            detail = "Your app's applicationId is now 'com.barsrus.mixology.pub' (Version 6.0), so it will not conflict with the old AI Studio Beta Personal Library ID."
                         )
                         PublishStepItem(
                             step = "3",
